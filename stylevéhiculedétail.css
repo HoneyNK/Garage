@@ -57,5 +57,9 @@ table {
     font-size: 4rem;
 }
 .fontstyle2{
+    font-style: oblique;
     font-size: 2rem;
+}
+.fontstyle3{
+    font-size: 1rem;
 }
