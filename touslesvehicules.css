@@ -54,15 +54,40 @@ table {
     height: auto;
 }
 
-.card{
+.text{
     margin: 1rem;
     padding: 1rem;
     background-color: #212529;
-    color: white
+    color: white;
+	text-align: center;
 }
 .rouge{
     color:red;
 }
 
+.ligne{
+    display: flex;
+    flex-direction: row;
+}
 
+.espacé{
+    display: flex;
+    justify-content: space-around;
+}
+.centré{
+    display: flex;
+    justify-content: center;
+}
+.colonne{
+    display: flex;
+    flex-direction: column;
+}
+.colonnecentré{
+    display: flex;
+    align-items: center;
+}
+.card{
+	margin: 1%;
+	padding: 1%;
+}
 
