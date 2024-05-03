@@ -1,9 +1,15 @@
+.logo {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
 .bgColor {
   background-color: #212529;
 }
 .txtWhite {
   color: white;
   text-decoration: none;
+
 }
 
 .pad50 {
@@ -19,4 +25,10 @@ ul {
 .justSE {
     display: flex;
     justify-content: space-evenly;
+}
+.ml20 {
+    margin-left: 20px;
+}
+.alignCenter {
+    align-items: center;
 }
