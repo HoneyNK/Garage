@@ -9,12 +9,65 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
     <title>Détails véhicule</title>
 
-    <link rel="stylesheet" href="stylevéhiculedétail.css">
+    <link rel="stylesheet" href="stylevéhiculedétail.css" />
   </head>
   <body class="bgcolor">
+    <header>
+      <nav
+        class="navbar navbar-expand-lg bg-dark border-bottom border-body"
+        data-bs-theme="dark"
+      >
+        <div class="container-fluid">
+          <img class="logo" src="images/logoFM.png" alt="logoFM" />
+          <a class="navbar-brand" href="#">Fuego Motor</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="Accueil.html"
+                  >Accueil</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="touslesvehicules.html">Véhicules</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="prisederdv.html">Prendre RDV ?</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Recherche"
+                aria-label="Search"
+              />
+              <button class="btn btn-dark" type="submit">Recherche</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
     <div>
       <h1 class="fontstyle1">Classe A</h1>
       <h2 class="fontstyle2">Just like you.</h2>
@@ -107,5 +160,23 @@
         1 429 mm H
       </p>
     </div>
+    <footer class="bgColor txtWhite pad50 justSB alignCenter">
+      <div>
+      <p>Fuego Motor, Inc</p>
+  </div>
+  <div>
+      <img class="logo" src="images/logoFM.png" alt="logofoot">
+  </div>
+  <div >
+      <ul class="justSE">
+        <li><a class="txtWhite" href="Accueil.html">Accueil</a></li>
+        <li>
+          <a class="txtWhite ml20" href="touslesvehicules.html">Véhicules</a>
+        </li>
+        <li><a class="txtWhite ml20" href="prisederdv.html">Rendez-vous?</a></li>
+        <li><a class="txtWhite ml20" href="paneladmin.html">Admin</a></li>
+      </ul>
+  </div>
+    </footer>
   </body>
 </html>
