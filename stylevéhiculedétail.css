@@ -48,7 +48,14 @@ table {
 }
 
 /* Début CSS */
-
-{
-
+.bgcolor{
+    background-color: #212529;
+    color: white;
+}
+.fontstyle1{
+    font-style: italic;
+    font-size: 3rem;
+}
+.fontstyle2{
+    
 }
