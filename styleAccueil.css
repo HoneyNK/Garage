@@ -1,0 +1,22 @@
+.bgColor {
+  background-color: #212529;
+}
+.txtWhite {
+  color: white;
+  text-decoration: none;
+}
+
+.pad50 {
+  padding: 50px;
+}
+ul {
+    list-style: none;
+}
+.justSB {
+    display: flex;
+    justify-content: space-between;
+}
+.justSE {
+    display: flex;
+    justify-content: space-evenly;
+}
